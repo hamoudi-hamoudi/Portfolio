@@ -5,7 +5,6 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Projects from "./components/projects/Projects";
-import Testimonials from "./components/testimonials/Testimonials";
 const App: React.FC = () => {
   return (
     <>
@@ -14,7 +13,6 @@ const App: React.FC = () => {
       <About />
       <Experience />
       <Projects />
-      <Testimonials />
       <Contact />
       <Footer />
     </>
